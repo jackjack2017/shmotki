@@ -62,7 +62,7 @@
         "barryvdh/laravel-debugbar": "^2.1",
         "webmagic/gulp-builder" : "dev-master",
         "barryvdh/laravel-ide-helper": "^2.1",
-        "orangehill/iseed": "2.2",
+        "orangehill/iseed": "dev-master",
         "caouecs/laravel-lang": "~3.0",
         "xethron/migrations-generator": "^2.0",
         "themsaid/laravel-mail-preview": "^1.2"

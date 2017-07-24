@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "270649c6f1e66c1df2b7627ac881ff1e",
+    "content-hash": "cdea108b6f8cd35dd84913be15a270a2",
     "packages": [
         {
             "name": "bican/roles",
@@ -3907,24 +3907,27 @@
         },
         {
             "name": "orangehill/iseed",
-            "version": "v2.2",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orangehill/iseed.git",
-                "reference": "e94c5a05742ff5e29ddf34a27fcfddbec7712fd4"
+                "reference": "4d635d2d5a33e2135b25a12e26beda059b990e8b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orangehill/iseed/zipball/e94c5a05742ff5e29ddf34a27fcfddbec7712fd4",
-                "reference": "e94c5a05742ff5e29ddf34a27fcfddbec7712fd4",
+                "url": "https://api.github.com/repos/orangehill/iseed/zipball/4d635d2d5a33e2135b25a12e26beda059b990e8b",
+                "reference": "4d635d2d5a33e2135b25a12e26beda059b990e8b",
                 "shasum": ""
             },
             "require": {
+                "illuminate/support": "^5.3.8",
                 "php": ">=5.4.0"
             },
             "require-dev": {
                 "illuminate/filesystem": "5.x",
-                "mockery/mockery": "dev-master"
+                "laravel/framework": "^5.3.8",
+                "mockery/mockery": "dev-master",
+                "phpunit/phpunit": "^5.7"
             },
             "type": "library",
             "autoload": {
@@ -3952,7 +3955,7 @@
                 "laravel",
                 "seed"
             ],
-            "time": "2016-09-14T07:59:34+00:00"
+            "time": "2017-07-13T09:57:05+00:00"
         },
         {
             "name": "phpdocumentor/reflection-common",
@@ -5528,7 +5531,8 @@
         "laravel-components/log": 20,
         "laravel-components/mailer": 20,
         "laravel-components/request": 20,
-        "webmagic/gulp-builder": 20
+        "webmagic/gulp-builder": 20,
+        "orangehill/iseed": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
