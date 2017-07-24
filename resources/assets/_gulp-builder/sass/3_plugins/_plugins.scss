@@ -1,0 +1,17 @@
+// Magnific styles import
+@import "../../bower_components/magnificPopup/src/css/main";
+
+//FormSender styles import
+@import 'sendform';
+
+//Bootstarp grid
+@import '../../bower_components/bootstrap/scss/_variables.scss';
+@import '../../bower_components/bootstrap/scss/_mixins.scss';
+@import '../../bower_components/bootstrap/scss/_grid.scss';
+
+//owl carousel
+@import '../../bower_components/owl.carousel/src/scss/owl.carousel.scss';
+@import '../../bower_components/owl.carousel/src/scss/theme.default.scss';
+
+@import "magic_popup";
+@import "spinner";
