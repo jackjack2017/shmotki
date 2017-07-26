@@ -4,8 +4,9 @@
         <section class="sidebar">
             <!-- sidebar menu: : style can be found in sidebar.less -->
             <ul class="sidebar-menu">
+
                 @foreach($menu as $menu_item_name => $menu_item)
-                    @if(!$menu_item['permissions'] || auth()->user()->can($menu_item['permissions']))
+                @if(!$menu_item['permissions'] || !auth()->user()->hasPermission($menu_item['permissions']))
                         <li class="@if($menu_control['page'] === $menu_item_name || $menu_control['category'] === $menu_item_name) active @endif
                                 @if($menu_item['category']) treeview @endif ">
                             <a href="{{url($menu_item['url'])}}">
@@ -15,7 +16,8 @@
                             @if($menu_item['category'])
                                 <ul class="treeview-menu">
                                     @foreach($menu_item['sub_items'] as $sub_item_name => $sub_item)
-                                        @if(!$sub_item['permissions'] || auth()->user()->can($sub_item['permissions']))
+
+                                        @if(!$sub_item['permissions'] || !auth()->user()->hasPermission($sub_item['permissions']))
                                             <li class="@if($menu_control['page'] == $sub_item_name) active @endif">
                                                 <a href="{{url($sub_item['url'])}}">
                                                     <i class="fa {{$sub_item['icon_class']}}"></i><span>{{$sub_item['label']}}</span>

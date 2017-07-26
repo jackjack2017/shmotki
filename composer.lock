@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "cdea108b6f8cd35dd84913be15a270a2",
+    "content-hash": "6a58bc09fc401931300cfb4a81ae2793",
     "packages": [
         {
             "name": "bican/roles",
@@ -1109,12 +1109,12 @@
             "source": {
                 "type": "git",
                 "url": "https://bitbucket.org/webmagic/dashboard.git",
-                "reference": "706c399c47f4975ee57a6ca8f761dea11a79fc93"
+                "reference": "43fd30d5ff90da4db1b31e3366f557d4bcfd677b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://bitbucket.org/webmagic/dashboard/get/706c399c47f4975ee57a6ca8f761dea11a79fc93.zip",
-                "reference": "706c399c47f4975ee57a6ca8f761dea11a79fc93",
+                "url": "https://bitbucket.org/webmagic/dashboard/get/43fd30d5ff90da4db1b31e3366f557d4bcfd677b.zip",
+                "reference": "43fd30d5ff90da4db1b31e3366f557d4bcfd677b",
                 "shasum": ""
             },
             "require": {
@@ -1140,47 +1140,10 @@
             "description": "Package for base dashboard preparing",
             "homepage": "https://bitbucket.org/webmagic/dashboard",
             "support": {
-                "source": "https://bitbucket.org/webmagic/dashboard/src/706c399c47f4975ee57a6ca8f761dea11a79fc93/?at=laravel_5.4",
+                "source": "https://bitbucket.org/webmagic/dashboard/src/43fd30d5ff90da4db1b31e3366f557d4bcfd677b/?at=laravel_5.4",
                 "issues": "https://bitbucket.org/webmagic/dashboard/issues"
             },
-            "time": "2017-07-24T10:46:41+00:00"
-        },
-        {
-            "name": "laravel-components/log",
-            "version": "dev-laravel_5.4",
-            "source": {
-                "type": "git",
-                "url": "https://bitbucket.org/webmagic/log.git",
-                "reference": "b540c6dc2a4aef818719d68cfdc78784aee9f173"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://bitbucket.org/webmagic/log/get/b540c6dc2a4aef818719d68cfdc78784aee9f173.zip",
-                "reference": "b540c6dc2a4aef818719d68cfdc78784aee9f173",
-                "shasum": ""
-            },
-            "require": {
-                "laravel/framework": "5.4.*",
-                "rap2hpoutre/laravel-log-viewer": "^0.7.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "LaravelComponents\\Log\\": "src/"
-                }
-            },
-            "authors": [
-                {
-                    "name": "Yevhen Saienko",
-                    "email": "lead-worker@yandex.ru"
-                }
-            ],
-            "description": "Log viewer for MagicDashboard",
-            "homepage": "https://bitbucket.org/webmagic/log",
-            "support": {
-                "source": "https://bitbucket.org/webmagic/log/src/b540c6dc2a4aef818719d68cfdc78784aee9f173/?at=laravel_5.4"
-            },
-            "time": "2017-07-24T10:52:45+00:00"
+            "time": "2017-07-26T16:10:32+00:00"
         },
         {
             "name": "laravel-components/mailer",
@@ -1256,42 +1219,6 @@
                 "issues": "https://bitbucket.org/webmagic/request/issues"
             },
             "time": "2017-07-11T08:07:46+00:00"
-        },
-        {
-            "name": "laravel-components/users",
-            "version": "dev-owl",
-            "source": {
-                "type": "git",
-                "url": "https://bitbucket.org/webmagic/users.git",
-                "reference": "b5c7917d7d88ae923fca4ac0d80aeaa58c8d9cdf"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://bitbucket.org/webmagic/users/get/b5c7917d7d88ae923fca4ac0d80aeaa58c8d9cdf.zip",
-                "reference": "b5c7917d7d88ae923fca4ac0d80aeaa58c8d9cdf",
-                "shasum": ""
-            },
-            "require": {
-                "laravel/framework": "5.4.*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "LaravelComponents\\Users\\": "src/"
-                }
-            },
-            "authors": [
-                {
-                    "name": "Yevhen Saienko",
-                    "email": "lead-worker@yandex.ru"
-                }
-            ],
-            "description": "Simple users and roles managment package",
-            "homepage": "https://bitbucket.org/webmagic/users",
-            "support": {
-                "source": "https://bitbucket.org/webmagic/users/src/b5c7917d7d88ae923fca4ac0d80aeaa58c8d9cdf/?at=owl"
-            },
-            "time": "2017-07-04T13:59:24+00:00"
         },
         {
             "name": "laravel/framework",
@@ -3422,6 +3349,79 @@
                 "source": "https://bitbucket.org/webmagic/ecommerce-light/src/b08556d6ca8a88215a2a3210c1d625d1c2d3eadf/?at=dev"
             },
             "time": "2017-07-18T13:41:58+00:00"
+        },
+        {
+            "name": "webmagic/log",
+            "version": "dev-laravel_5.4",
+            "source": {
+                "type": "git",
+                "url": "https://bitbucket.org/webmagic/log.git",
+                "reference": "29788606c1ddbb4484aedf250bd2bd243b9c89e9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://bitbucket.org/webmagic/log/get/29788606c1ddbb4484aedf250bd2bd243b9c89e9.zip",
+                "reference": "29788606c1ddbb4484aedf250bd2bd243b9c89e9",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "5.4.*",
+                "rap2hpoutre/laravel-log-viewer": "v0.7.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Webmagic\\Log\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Yevhen Saienko",
+                    "email": "lead-worker@yandex.ru"
+                }
+            ],
+            "description": "Log viewer for MagicDashboard",
+            "homepage": "https://bitbucket.org/webmagic/log",
+            "support": {
+                "source": "https://bitbucket.org/webmagic/log/src/29788606c1ddbb4484aedf250bd2bd243b9c89e9/?at=laravel_5.4"
+            },
+            "time": "2017-07-26T16:50:53+00:00"
+        },
+        {
+            "name": "webmagic/users",
+            "version": "dev-laravel_5.4",
+            "source": {
+                "type": "git",
+                "url": "https://bitbucket.org/webmagic/users.git",
+                "reference": "141e4039b6759e0a47ee06602388262f8de0b1d2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://bitbucket.org/webmagic/users/get/141e4039b6759e0a47ee06602388262f8de0b1d2.zip",
+                "reference": "141e4039b6759e0a47ee06602388262f8de0b1d2",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "5.4.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Webmagic\\Users\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Yevhen Saienko",
+                    "email": "lead-worker@yandex.ru"
+                }
+            ],
+            "description": "Simple users and roles managment package",
+            "homepage": "https://bitbucket.org/webmagic/users",
+            "support": {
+                "source": "https://bitbucket.org/webmagic/users/src/141e4039b6759e0a47ee06602388262f8de0b1d2/?at=laravel_5.4"
+            },
+            "time": "2017-07-26T15:44:50+00:00"
         }
     ],
     "packages-dev": [
@@ -5526,9 +5526,9 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "laravel-components/dashboard": 20,
-        "laravel-components/users": 20,
+        "webmagic/users": 20,
         "webmagic/ecommerce-light": 20,
-        "laravel-components/log": 20,
+        "webmagic/log": 20,
         "laravel-components/mailer": 20,
         "laravel-components/request": 20,
         "webmagic/gulp-builder": 20,

@@ -9,9 +9,9 @@
         "laravel/framework": "5.4.*",
 
         "laravel-components/dashboard": "dev-laravel_5.4",
-        "laravel-components/users": "dev-owl",
+        "webmagic/users": "dev-laravel_5.4",
         "webmagic/ecommerce-light": "dev-dev",
-        "laravel-components/log": "dev-laravel_5.4",
+        "webmagic/log": "dev-laravel_5.4",
         "laravel-components/mailer": "dev-laravel_5.4",
         "laravel-components/request": "dev-owl"
     },
