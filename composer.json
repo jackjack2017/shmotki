@@ -8,7 +8,7 @@
         "php": "7.1.*",
         "laravel/framework": "5.4.*",
 
-        "laravel-components/dashboard": "dev-laravel_5.4",
+        "webmagic/dashboard": "dev-laravel_5.4",
         "webmagic/users": "dev-laravel_5.4",
         "webmagic/ecommerce-light": "dev-dev",
         "webmagic/log": "dev-laravel_5.4",

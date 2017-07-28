@@ -153,11 +153,11 @@ return [
         /*
         * LaravelComponents
         */
-        \LaravelComponents\Dashboard\DashboardServiceProvider::class,
+        \Webmagic\Dashboard\DashboardServiceProvider::class,
         \Webmagic\Log\LogDashboardServiceProvider::class,
-//        \LaravelComponents\Mailer\MailerDashboardServiceProvider::class,
-//        \LaravelComponents\Request\RequestDashboardServiceProvider::class,
-        \Webmagic\EcommerceLight\EcommerceServiceProvider::class,
+////        \LaravelComponents\Mailer\MailerDashboardServiceProvider::class,
+////        \LaravelComponents\Request\RequestDashboardServiceProvider::class,
+        \Webmagic\EcommerceLight\EcommerceDashboardServiceProvider::class,
         \Webmagic\Users\UserDashboardServiceProvider::class,
 
         /*
