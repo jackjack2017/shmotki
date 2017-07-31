@@ -13,7 +13,7 @@
         "webmagic/ecommerce-light": "dev-dev",
         "webmagic/log": "dev-laravel_5.4",
         "webmagic/mailer": "dev-laravel_5.4",
-        "laravel-components/request": "dev-owl"
+        "webmagic/request": "dev-laravel_5.4"
     },
     "repositories":[
         {

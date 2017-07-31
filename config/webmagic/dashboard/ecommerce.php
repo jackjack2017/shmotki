@@ -117,16 +117,6 @@ return [
                     'sub_items' => false
                 ],
 
-
-                "collection_group" => [
-                    'category' => false,
-                    'url' => 'dashboard/ecommerce/collection/group',
-                    'label' => 'Группы коллекций',
-                    'icon_class' => 'fa-circle-o',
-                    'permissions' => false,
-                    'sub_items' => false
-                ],
-
             ] : [],
     ]
 ];

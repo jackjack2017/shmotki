@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "7a79f7233bfaf47c686cc4e6b9163c45",
+    "content-hash": "d2ce03675c087118513cd869dd26d8c2",
     "packages": [
         {
             "name": "bican/roles",
@@ -1102,44 +1102,6 @@
                 "source": "https://bitbucket.org/webmagic/core/src/b62b01631337efa84dd8b0f2ea8245beca70988c/?at=dev"
             },
             "time": "2017-06-13T07:34:53+00:00"
-        },
-        {
-            "name": "laravel-components/request",
-            "version": "dev-owl",
-            "source": {
-                "type": "git",
-                "url": "https://bitbucket.org/webmagic/request.git",
-                "reference": "7d9d246d2079542251bd96cf005bae3193088689"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://bitbucket.org/webmagic/request/get/7d9d246d2079542251bd96cf005bae3193088689.zip",
-                "reference": "7d9d246d2079542251bd96cf005bae3193088689",
-                "shasum": ""
-            },
-            "require": {
-                "laravel/framework": "5.4.*",
-                "maatwebsite/excel": "~2.1.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "LaravelComponents\\Request\\": "src/"
-                }
-            },
-            "authors": [
-                {
-                    "name": "Yevhen Saienko",
-                    "email": "lead-worker@yandex.ru"
-                }
-            ],
-            "description": "Package for registering requests",
-            "homepage": "https://bitbucket.org/webmagic/request",
-            "support": {
-                "source": "https://bitbucket.org/webmagic/request/src/7d9d246d2079542251bd96cf005bae3193088689/?at=owl",
-                "issues": "https://bitbucket.org/webmagic/request/issues"
-            },
-            "time": "2017-07-11T08:07:46+00:00"
         },
         {
             "name": "laravel/framework",
@@ -3356,12 +3318,12 @@
             "source": {
                 "type": "git",
                 "url": "https://bitbucket.org/webmagic/mailer.git",
-                "reference": "9d5b870ec6d8563313942b583770005074e9953c"
+                "reference": "9a7882cc13cb2298e4615e70e1bfd083ee7597b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://bitbucket.org/webmagic/mailer/get/9d5b870ec6d8563313942b583770005074e9953c.zip",
-                "reference": "9d5b870ec6d8563313942b583770005074e9953c",
+                "url": "https://bitbucket.org/webmagic/mailer/get/9a7882cc13cb2298e4615e70e1bfd083ee7597b6.zip",
+                "reference": "9a7882cc13cb2298e4615e70e1bfd083ee7597b6",
                 "shasum": ""
             },
             "require": {
@@ -3383,10 +3345,49 @@
             "description": "Email notifier with possible use many emails lists",
             "homepage": "https://bitbucket.org/webmagic/mailer",
             "support": {
-                "source": "https://bitbucket.org/webmagic/mailer/src/9d5b870ec6d8563313942b583770005074e9953c/?at=laravel_5.4",
+                "source": "https://bitbucket.org/webmagic/mailer/src/9a7882cc13cb2298e4615e70e1bfd083ee7597b6/?at=laravel_5.4",
                 "issues": "https://bitbucket.org/webmagic/mailer/issues"
             },
-            "time": "2017-07-31T11:00:59+00:00"
+            "time": "2017-07-31T11:09:39+00:00"
+        },
+        {
+            "name": "webmagic/request",
+            "version": "dev-laravel_5.4",
+            "source": {
+                "type": "git",
+                "url": "https://bitbucket.org/webmagic/request.git",
+                "reference": "5f531f8b1f1ddde3701e9017f06e5d7238086209"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://bitbucket.org/webmagic/request/get/5f531f8b1f1ddde3701e9017f06e5d7238086209.zip",
+                "reference": "5f531f8b1f1ddde3701e9017f06e5d7238086209",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "5.4.*",
+                "maatwebsite/excel": "~2.1.0",
+                "php": "7.1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Webmagic\\Request\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Yevhen Saienko",
+                    "email": "lead-worker@yandex.ru"
+                }
+            ],
+            "description": "Package for registering requests",
+            "homepage": "https://bitbucket.org/webmagic/request",
+            "support": {
+                "source": "https://bitbucket.org/webmagic/request/src/5f531f8b1f1ddde3701e9017f06e5d7238086209/?at=laravel_5.4",
+                "issues": "https://bitbucket.org/webmagic/request/issues"
+            },
+            "time": "2017-07-31T13:48:24+00:00"
         },
         {
             "name": "webmagic/users",
@@ -5531,7 +5532,7 @@
         "webmagic/ecommerce-light": 20,
         "webmagic/log": 20,
         "webmagic/mailer": 20,
-        "laravel-components/request": 20,
+        "webmagic/request": 20,
         "webmagic/gulp-builder": 20,
         "orangehill/iseed": 20
     },
