@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "2688a3ef5114b4fbb6381eec395b0a10",
+    "content-hash": "7a79f7233bfaf47c686cc4e6b9163c45",
     "packages": [
         {
             "name": "bican/roles",
@@ -433,16 +433,16 @@
         },
         {
             "name": "doctrine/dbal",
-            "version": "v2.6.0",
+            "version": "v2.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "498760e55195ccaf08076cb9100a2972ba74c001"
+                "reference": "1a086f853425b1f5349775ce57e45a772d2d2ba5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/498760e55195ccaf08076cb9100a2972ba74c001",
-                "reference": "498760e55195ccaf08076cb9100a2972ba74c001",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/1a086f853425b1f5349775ce57e45a772d2d2ba5",
+                "reference": "1a086f853425b1f5349775ce57e45a772d2d2ba5",
                 "shasum": ""
             },
             "require": {
@@ -502,7 +502,7 @@
                 "persistence",
                 "queryobject"
             ],
-            "time": "2017-07-23T01:02:22+00:00"
+            "time": "2017-07-28T10:40:18+00:00"
         },
         {
             "name": "doctrine/inflector",
@@ -1102,43 +1102,6 @@
                 "source": "https://bitbucket.org/webmagic/core/src/b62b01631337efa84dd8b0f2ea8245beca70988c/?at=dev"
             },
             "time": "2017-06-13T07:34:53+00:00"
-        },
-        {
-            "name": "laravel-components/mailer",
-            "version": "dev-laravel_5.4",
-            "source": {
-                "type": "git",
-                "url": "https://bitbucket.org/webmagic/mailer.git",
-                "reference": "6293fb530d77af6bfc25f16638cfff9083fe9b4b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://bitbucket.org/webmagic/mailer/get/6293fb530d77af6bfc25f16638cfff9083fe9b4b.zip",
-                "reference": "6293fb530d77af6bfc25f16638cfff9083fe9b4b",
-                "shasum": ""
-            },
-            "require": {
-                "laravel/framework": "5.4.*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "LaravelComponents\\Mailer\\": "src/"
-                }
-            },
-            "authors": [
-                {
-                    "name": "Yevhen Saienko",
-                    "email": "lead-worker@yandex.ru"
-                }
-            ],
-            "description": "Email notifier with possible use many emails lists",
-            "homepage": "https://bitbucket.org/webmagic/mailer",
-            "support": {
-                "source": "https://bitbucket.org/webmagic/mailer/src/6293fb530d77af6bfc25f16638cfff9083fe9b4b/?at=laravel_5.4",
-                "issues": "https://bitbucket.org/webmagic/mailer/issues"
-            },
-            "time": "2017-07-24T11:04:00+00:00"
         },
         {
             "name": "laravel-components/request",
@@ -1811,16 +1774,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v3.0.6",
+            "version": "v3.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "0808939f81c1347a3c8a82a5925385a08074b0f1"
+                "reference": "4d4896e553f2094e657fe493506dc37c509d4e2b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/0808939f81c1347a3c8a82a5925385a08074b0f1",
-                "reference": "0808939f81c1347a3c8a82a5925385a08074b0f1",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/4d4896e553f2094e657fe493506dc37c509d4e2b",
+                "reference": "4d4896e553f2094e657fe493506dc37c509d4e2b",
                 "shasum": ""
             },
             "require": {
@@ -1858,7 +1821,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2017-06-28T20:53:48+00:00"
+            "time": "2017-07-28T14:45:09+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -3300,12 +3263,12 @@
             "source": {
                 "type": "git",
                 "url": "https://bitbucket.org/webmagic/ecommerce-light.git",
-                "reference": "6e2fa91ecaf6318066a8fff6a2eb90ee51f8a3cd"
+                "reference": "d59e897f89d83bdfded27f6ca074bdc134ea5e66"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://bitbucket.org/webmagic/ecommerce-light/get/6e2fa91ecaf6318066a8fff6a2eb90ee51f8a3cd.zip",
-                "reference": "6e2fa91ecaf6318066a8fff6a2eb90ee51f8a3cd",
+                "url": "https://bitbucket.org/webmagic/ecommerce-light/get/d59e897f89d83bdfded27f6ca074bdc134ea5e66.zip",
+                "reference": "d59e897f89d83bdfded27f6ca074bdc134ea5e66",
                 "shasum": ""
             },
             "archive": {
@@ -3346,9 +3309,9 @@
             "description": "Ecommerce package for laravel",
             "homepage": "https://bitbucket.org/webmagic/ecommerce-light",
             "support": {
-                "source": "https://bitbucket.org/webmagic/ecommerce-light/src/6e2fa91ecaf6318066a8fff6a2eb90ee51f8a3cd/?at=dev"
+                "source": "https://bitbucket.org/webmagic/ecommerce-light/src/d59e897f89d83bdfded27f6ca074bdc134ea5e66/?at=dev"
             },
-            "time": "2017-07-27T14:35:29+00:00"
+            "time": "2017-07-31T08:25:10+00:00"
         },
         {
             "name": "webmagic/log",
@@ -3386,6 +3349,44 @@
                 "source": "https://bitbucket.org/webmagic/log/src/eff5bad60719ae41bd89da4da111ac2bf406bdf3/?at=laravel_5.4"
             },
             "time": "2017-07-27T14:32:16+00:00"
+        },
+        {
+            "name": "webmagic/mailer",
+            "version": "dev-laravel_5.4",
+            "source": {
+                "type": "git",
+                "url": "https://bitbucket.org/webmagic/mailer.git",
+                "reference": "9d5b870ec6d8563313942b583770005074e9953c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://bitbucket.org/webmagic/mailer/get/9d5b870ec6d8563313942b583770005074e9953c.zip",
+                "reference": "9d5b870ec6d8563313942b583770005074e9953c",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "5.4.*",
+                "php": "7.1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Webmagic\\Mailer\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Yevhen Saienko",
+                    "email": "lead-worker@yandex.ru"
+                }
+            ],
+            "description": "Email notifier with possible use many emails lists",
+            "homepage": "https://bitbucket.org/webmagic/mailer",
+            "support": {
+                "source": "https://bitbucket.org/webmagic/mailer/src/9d5b870ec6d8563313942b583770005074e9953c/?at=laravel_5.4",
+                "issues": "https://bitbucket.org/webmagic/mailer/issues"
+            },
+            "time": "2017-07-31T11:00:59+00:00"
         },
         {
             "name": "webmagic/users",
@@ -4139,16 +4140,16 @@
         },
         {
             "name": "phpspec/phpspec",
-            "version": "2.5.7",
+            "version": "2.5.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpspec/phpspec.git",
-                "reference": "a1dd5db803e75591c0e3cc1a054f7942133b4d05"
+                "reference": "d8a153dcb52f929b448c0bf2cc19c7388951adb1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpspec/phpspec/zipball/a1dd5db803e75591c0e3cc1a054f7942133b4d05",
-                "reference": "a1dd5db803e75591c0e3cc1a054f7942133b4d05",
+                "url": "https://api.github.com/repos/phpspec/phpspec/zipball/d8a153dcb52f929b448c0bf2cc19c7388951adb1",
+                "reference": "d8a153dcb52f929b448c0bf2cc19c7388951adb1",
                 "shasum": ""
             },
             "require": {
@@ -4165,7 +4166,7 @@
                 "symfony/yaml": "~2.1|~3.0"
             },
             "require-dev": {
-                "behat/behat": "^3.0.11",
+                "behat/behat": "^3.0.11,!=3.3.1",
                 "ciaranmcnulty/versionbasedtestskipper": "^0.2.1",
                 "phpunit/phpunit": "~4.4",
                 "symfony/filesystem": "~2.1|~3.0"
@@ -4213,7 +4214,7 @@
                 "testing",
                 "tests"
             ],
-            "time": "2017-05-12T06:09:08+00:00"
+            "time": "2017-07-29T17:19:38+00:00"
         },
         {
             "name": "phpspec/prophecy",
@@ -5529,7 +5530,7 @@
         "webmagic/users": 20,
         "webmagic/ecommerce-light": 20,
         "webmagic/log": 20,
-        "laravel-components/mailer": 20,
+        "webmagic/mailer": 20,
         "laravel-components/request": 20,
         "webmagic/gulp-builder": 20,
         "orangehill/iseed": 20

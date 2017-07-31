@@ -155,7 +155,7 @@ return [
         */
         \Webmagic\Dashboard\DashboardServiceProvider::class,
         \Webmagic\Log\LogDashboardServiceProvider::class,
-////        \LaravelComponents\Mailer\MailerDashboardServiceProvider::class,
+        \Webmagic\Mailer\MailerDashboardServiceProvider::class,
 ////        \LaravelComponents\Request\RequestDashboardServiceProvider::class,
         \Webmagic\EcommerceLight\EcommerceDashboardServiceProvider::class,
         \Webmagic\Users\UserDashboardServiceProvider::class,
