@@ -100,7 +100,16 @@ gulp.task('css:build', function() {
     gulp.src(path.src.css)
         .pipe(plugins.plumber());
     return plugins.sass(path.src.css)
-        .pipe(plugins.prefixer())
+        .pipe(plugins.prefixer({
+            browsers: [
+                'last 2 versions',
+                '> 1%',
+                'IE 7',
+                'android 4',
+                'opera 12',
+                'safari 8'
+            ],
+        }))
         .pipe(plugins.rename('dist.' + css_main_file_name))
         .pipe(gulp.dest(path.build.css))
         .pipe(plugins.cssmin())
@@ -108,14 +117,24 @@ gulp.task('css:build', function() {
         .pipe(gulp.dest(path.build.css))
 });
 
+
 gulp.task('css:dev', function() {
     gulp.src(path.src.css)
         .pipe(plugins.plumber());
     return plugins.sass(path.src.css, {
-            sourcemap: true
+            sourcemap: true,
         })
         .pipe(plugins.cssmin())
-        .pipe(plugins.prefixer())
+        .pipe(plugins.prefixer({
+            browsers: [
+                'last 2 versions',
+                '> 1%',
+                'IE 7',
+                'android 4',
+                'opera 12',
+                'safari 8'
+            ],
+        }))
         .pipe(plugins.sourcemaps.write('map'))
         .pipe(gulp.dest(path.build.css))
 });

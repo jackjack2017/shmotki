@@ -1,15 +1,15 @@
 import Field from './field';
 
-/**
- * @param formClass {string} - class of form.
- * @param settings {Object} - settings object.
- * @param reference {Object} - reference for validation.
- */
 export default class Form{
+    /**
+     * @param formClass {string} - class of form.
+     * @param settings {Object} - settings object.
+     * @param reference {Object} - reference for validation.
+     */
     constructor(formClass, settings, reference) {
         this.form = document.querySelector(formClass);
         if(this.form == null || undefined) return;
-        this.inputs = this.form.querySelectorAll('input:not([type="hidden"]), select');
+        this.inputs = Array.from(this.form.querySelectorAll('input:not([type="hidden"]), select, textarea'));
         /**
          * Set action(url for request)
          */
@@ -29,14 +29,15 @@ export default class Form{
         this.items = [];
         // Contain errors field with position
         this.errorItems = {};
-
+        // settings
         let customSettings = {
             resetAfterSubmit: true,
             onlyValidate: false,
             statusId: 'form-status',
             statusErrorClass:'with_error',
-            statusSucssClass : 'with_success',
+            statusSuccessClass : 'with_success',
             errorClass: 'error',
+            successClass: 'success-valid',
             validateClass: '.js_sendform-validate',
             requiredClass: 'form-required', 
             modalOpen: true,
@@ -44,7 +45,7 @@ export default class Form{
             msgSend: 'Отправка данных',
             msgDone: 'Данные успешно отправлены',
             msgError: 'Ошибка отправки',
-            msgValError: 'Одно из полей не заполнено',
+            msgValError: 'Одно из полей не заполено',
             spinnerColor: '#000',
             formPosition: 'relative',
             resetClass: '.js_senform-reset',
@@ -60,10 +61,11 @@ export default class Form{
                 this.validationErrorCallback();
             }
         };
-
+        // validation rules
         let customReference = {
             email: ['isEmail', 'isEmpty'],
             text: ['isEmpty'],
+            textarea: ['isEmpty'],
             phone: ['minLength'],
             required:['isEmpty'],
             checkbox:['isChecked'],
@@ -235,24 +237,48 @@ export default class Form{
         this.statusText.classList.add('with_error');
     }
 
+    /**
+     * On error validation
+     */
     validationErrorCallback(){
-        this.errorStatusText();
+        this.errorStatusClass();
         this.printText(this.settings.msgValError);
     }
-    
+
+    /**
+     * Set text in status in form.
+     * @param text{string}
+     */
     printText(text){
         this.statusText.innerHTML = text;
     }
 
+    /**
+     * Clean status text
+     */
     removeStatusText(){
         this.statusText.innerHTML = '';
         this.statusText.classList = '';
     }
 
-    errorStatusText(){
+    /**
+     * Set error class on status text in form
+     */
+    errorStatusClass(){
         this.statusText.classList.add(this.settings.statusErrorClass);
     }
 
+    /**
+     * Set success class on status text in form
+     */
+    successStatusClass(){
+        this.statusText.classList.add(this.settings.statusSuccessClass);
+    }
+
+    /**
+     * Submitting data
+     * @param event
+     */
     submitData(event){  
         let request = new XMLHttpRequest();
         request.open(this.settings.method, this.action , true);
@@ -270,12 +296,19 @@ export default class Form{
         request.send(data);
     }
 
+    /**
+     * On error submit
+     */
     errorSubmit(){
-        this.errorStatusText();
+        this.errorStatusClass();
         this.printText(this.settings.msgError);
     }
 
+    /**
+     * On success submit
+     */
     successSubmit(){
+        this.successStatusClass();
         this.printText(this.settings.msgDone);
     }
 

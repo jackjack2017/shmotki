@@ -6,7 +6,8 @@ export default class Field{
         this.field = field;
         this.reference = Object.assign({}, reference);
         this.isValid = true;
-        this.type = this.field.getAttribute('type');
+        let attribute = this.field.getAttribute('type');
+        this.type = attribute ? attribute.toLowerCase() : this.field.tagName.toLowerCase();
         this.isRequired = this.field.hasAttribute('required');
         this.firstCheck = true;
         this.settings = settings;
@@ -86,10 +87,12 @@ export default class Field{
 
     addError(){
         this.field.classList.add(this.settings.errorClass);
+        this.field.classList.remove(this.settings.successClass);
     }
 
     removeError(){
         this.field.classList.remove(this.settings.errorClass);
+        this.field.classList.add(this.settings.successClass);
     }
 
     needValidate(){
