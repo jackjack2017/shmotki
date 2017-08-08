@@ -3225,12 +3225,12 @@
             "source": {
                 "type": "git",
                 "url": "https://bitbucket.org/webmagic/ecommerce-light.git",
-                "reference": "d59e897f89d83bdfded27f6ca074bdc134ea5e66"
+                "reference": "cdf8c2867d58b24bae248f3036ae2f54623c156c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://bitbucket.org/webmagic/ecommerce-light/get/d59e897f89d83bdfded27f6ca074bdc134ea5e66.zip",
-                "reference": "d59e897f89d83bdfded27f6ca074bdc134ea5e66",
+                "url": "https://bitbucket.org/webmagic/ecommerce-light/get/cdf8c2867d58b24bae248f3036ae2f54623c156c.zip",
+                "reference": "cdf8c2867d58b24bae248f3036ae2f54623c156c",
                 "shasum": ""
             },
             "archive": {
@@ -3271,9 +3271,9 @@
             "description": "Ecommerce package for laravel",
             "homepage": "https://bitbucket.org/webmagic/ecommerce-light",
             "support": {
-                "source": "https://bitbucket.org/webmagic/ecommerce-light/src/d59e897f89d83bdfded27f6ca074bdc134ea5e66/?at=dev"
+                "source": "https://bitbucket.org/webmagic/ecommerce-light/src/cdf8c2867d58b24bae248f3036ae2f54623c156c/?at=dev"
             },
-            "time": "2017-07-31T08:25:10+00:00"
+            "time": "2017-08-08T08:01:28+00:00"
         },
         {
             "name": "webmagic/log",
