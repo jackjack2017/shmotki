@@ -160,6 +160,7 @@ return [
         \Webmagic\Request\RequestDashboardServiceProvider::class,
         \Webmagic\EcommerceLight\EcommerceDashboardServiceProvider::class,
 
+
         /*
          * Application Service Providers...
          */
