@@ -8,4 +8,3 @@ resources/assets/_gulp-builder/bower_components
 /packages
 resources/assets/_gulp-builder/.sass-cache
 /storage/debugbar
-vendor/
