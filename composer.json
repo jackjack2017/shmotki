@@ -6,14 +6,7 @@
     "type": "project",
     "require": {
         "php": "7.1.*",
-        "laravel/framework": "5.4.*",
-
-        "webmagic/dashboard": "dev-laravel_5.4",
-        "webmagic/users": "dev-laravel_5.4",
-        "webmagic/ecommerce-light": "dev-dev",
-        "webmagic/log": "dev-laravel_5.4",
-        "webmagic/mailer": "dev-laravel_5.4",
-        "webmagic/request": "dev-laravel_5.4"
+        "laravel/framework": "5.4.*"
     },
     "repositories":[
         {

@@ -628,33 +628,33 @@
         },
         {
             "name": "doctrine/inflector",
-            "version": "v1.1.0",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/inflector.git",
-                "reference": "90b2128806bfde671b6952ab8bea493942c1fdae"
+                "reference": "e11d84c6e018beedd929cff5220969a3c6d1d462"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/inflector/zipball/90b2128806bfde671b6952ab8bea493942c1fdae",
-                "reference": "90b2128806bfde671b6952ab8bea493942c1fdae",
+                "url": "https://api.github.com/repos/doctrine/inflector/zipball/e11d84c6e018beedd929cff5220969a3c6d1d462",
+                "reference": "e11d84c6e018beedd929cff5220969a3c6d1d462",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.2"
+                "php": "^7.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "4.*"
+                "phpunit/phpunit": "^6.2"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.1.x-dev"
+                    "dev-master": "1.2.x-dev"
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Doctrine\\Common\\Inflector\\": "lib/"
+                "psr-4": {
+                    "Doctrine\\Common\\Inflector\\": "lib/Doctrine/Common/Inflector"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -691,7 +691,7 @@
                 "singularize",
                 "string"
             ],
-            "time": "2015-11-06T14:35:42+00:00"
+            "time": "2017-07-22T12:18:28+00:00"
         },
         {
             "name": "doctrine/lexer",
@@ -791,29 +791,31 @@
         },
         {
             "name": "fzaninotto/faker",
-            "version": "v1.6.0",
+            "version": "v1.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fzaninotto/Faker.git",
-                "reference": "44f9a286a04b80c76a4e5fb7aad8bb539b920123"
+                "reference": "d3ed4cc37051c1ca52d22d76b437d14809fc7e0d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/44f9a286a04b80c76a4e5fb7aad8bb539b920123",
-                "reference": "44f9a286a04b80c76a4e5fb7aad8bb539b920123",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/d3ed4cc37051c1ca52d22d76b437d14809fc7e0d",
+                "reference": "d3ed4cc37051c1ca52d22d76b437d14809fc7e0d",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.3.3|^7.0"
+                "php": "^5.3.3 || ^7.0"
             },
             "require-dev": {
                 "ext-intl": "*",
-                "phpunit/phpunit": "~4.0",
-                "squizlabs/php_codesniffer": "~1.5"
+                "phpunit/phpunit": "^4.0 || ^5.0",
+                "squizlabs/php_codesniffer": "^1.5"
             },
             "type": "library",
             "extra": {
-                "branch-alias": []
+                "branch-alias": {
+                    "dev-master": "1.8-dev"
+                }
             },
             "autoload": {
                 "psr-4": {
@@ -835,7 +837,7 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2016-04-29T12:21:54+00:00"
+            "time": "2017-08-15T16:48:10+00:00"
         },
         {
             "name": "ivanlemeshev/laravel5-cyrillic-slug",
@@ -1173,74 +1175,21 @@
             "time": "2014-09-13T13:18:07+00:00"
         },
         {
-            "name": "laravel-components/core",
-            "version": "v0.4.x-dev",
-            "source": {
-                "type": "git",
-                "url": "https://bitbucket.org/webmagic/core.git",
-                "reference": "b62b01631337efa84dd8b0f2ea8245beca70988c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://bitbucket.org/webmagic/core/get/b62b01631337efa84dd8b0f2ea8245beca70988c.zip",
-                "reference": "b62b01631337efa84dd8b0f2ea8245beca70988c",
-                "shasum": ""
-            },
-            "archive": {
-                "exclude": [
-                    "/tests",
-                    "test.bat",
-                    "phpunit.xml"
-                ]
-            },
-            "require": {
-                "laravel/framework": "5.4.*",
-                "php": "7.1.*"
-            },
-            "require-dev": {
-                "laravel/laravel": "5.4.*",
-                "phpunit/phpunit": "~5.7"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "LaravelComponents\\Core\\": "src/"
-                }
-            },
-            "autoload-dev": {
-                "psr-4": {
-                    "Tests\\": "tests/"
-                }
-            },
-            "authors": [
-                {
-                    "name": "Yevhen Saienko",
-                    "email": "lead-worker@yandex.ru"
-                }
-            ],
-            "description": "Package with core laravel-components",
-            "homepage": "https://bitbucket.org/webmagic/core",
-            "support": {
-                "source": "https://bitbucket.org/webmagic/core/src/b62b01631337efa84dd8b0f2ea8245beca70988c/?at=dev"
-            },
-            "time": "2017-06-13T07:34:53+00:00"
-        },
-        {
             "name": "laravel/framework",
-            "version": "v5.4.32",
+            "version": "v5.4.33",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "b8300578d159199b1195413b67318c79068cd24d"
+                "reference": "e53a81a2bf406f501cdf818ad949f8d6c8dabfc0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/b8300578d159199b1195413b67318c79068cd24d",
-                "reference": "b8300578d159199b1195413b67318c79068cd24d",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/e53a81a2bf406f501cdf818ad949f8d6c8dabfc0",
+                "reference": "e53a81a2bf406f501cdf818ad949f8d6c8dabfc0",
                 "shasum": ""
             },
             "require": {
-                "doctrine/inflector": "~1.1.0",
+                "doctrine/inflector": "~1.1",
                 "erusev/parsedown": "~1.6",
                 "ext-mbstring": "*",
                 "ext-openssl": "*",
@@ -1352,7 +1301,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2017-08-03T12:59:42+00:00"
+            "time": "2017-08-14T20:17:41+00:00"
         },
         {
             "name": "laravelcollective/html",
@@ -1414,12 +1363,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/LaravelRUS/SleepingOwlAdmin.git",
-                "reference": "c6af6d043063acca4c2047700480df839fffedeb"
+                "reference": "fd45eb47fe48cf15ab65bdb5aaace77c66e28786"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/LaravelRUS/SleepingOwlAdmin/zipball/c6af6d043063acca4c2047700480df839fffedeb",
-                "reference": "c6af6d043063acca4c2047700480df839fffedeb",
+                "url": "https://api.github.com/repos/LaravelRUS/SleepingOwlAdmin/zipball/fd45eb47fe48cf15ab65bdb5aaace77c66e28786",
+                "reference": "fd45eb47fe48cf15ab65bdb5aaace77c66e28786",
                 "shasum": ""
             },
             "require": {
@@ -1474,7 +1423,7 @@
                 "laravel",
                 "panel"
             ],
-            "time": "2017-08-10T15:31:22+00:00"
+            "time": "2017-08-10T15:37:33+00:00"
         },
         {
             "name": "league/flysystem",
@@ -2835,16 +2784,16 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.4.0",
+            "version": "v1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "f29dca382a6485c3cbe6379f0c61230167681937"
+                "reference": "7c8fae0ac1d216eb54349e6a8baa57d515fe8803"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/f29dca382a6485c3cbe6379f0c61230167681937",
-                "reference": "f29dca382a6485c3cbe6379f0c61230167681937",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/7c8fae0ac1d216eb54349e6a8baa57d515fe8803",
+                "reference": "7c8fae0ac1d216eb54349e6a8baa57d515fe8803",
                 "shasum": ""
             },
             "require": {
@@ -2856,7 +2805,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.4-dev"
+                    "dev-master": "1.5-dev"
                 }
             },
             "autoload": {
@@ -2890,20 +2839,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2017-06-09T14:24:12+00:00"
+            "time": "2017-06-14T15:44:48+00:00"
         },
         {
             "name": "symfony/polyfill-php56",
-            "version": "v1.4.0",
+            "version": "v1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php56.git",
-                "reference": "bc0b7d6cb36b10cfabb170a3e359944a95174929"
+                "reference": "e85ebdef569b84e8709864e1a290c40f156b30ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php56/zipball/bc0b7d6cb36b10cfabb170a3e359944a95174929",
-                "reference": "bc0b7d6cb36b10cfabb170a3e359944a95174929",
+                "url": "https://api.github.com/repos/symfony/polyfill-php56/zipball/e85ebdef569b84e8709864e1a290c40f156b30ca",
+                "reference": "e85ebdef569b84e8709864e1a290c40f156b30ca",
                 "shasum": ""
             },
             "require": {
@@ -2913,7 +2862,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.4-dev"
+                    "dev-master": "1.5-dev"
                 }
             },
             "autoload": {
@@ -2946,20 +2895,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2017-06-09T08:25:21+00:00"
+            "time": "2017-06-14T15:44:48+00:00"
         },
         {
             "name": "symfony/polyfill-util",
-            "version": "v1.4.0",
+            "version": "v1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-util.git",
-                "reference": "ebccbde4aad410f6438d86d7d261c6b4d2b9a51d"
+                "reference": "67925d1cf0b84bd234a83bebf26d4eb281744c6d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-util/zipball/ebccbde4aad410f6438d86d7d261c6b4d2b9a51d",
-                "reference": "ebccbde4aad410f6438d86d7d261c6b4d2b9a51d",
+                "url": "https://api.github.com/repos/symfony/polyfill-util/zipball/67925d1cf0b84bd234a83bebf26d4eb281744c6d",
+                "reference": "67925d1cf0b84bd234a83bebf26d4eb281744c6d",
                 "shasum": ""
             },
             "require": {
@@ -2968,7 +2917,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.4-dev"
+                    "dev-master": "1.5-dev"
                 }
             },
             "autoload": {
@@ -2998,7 +2947,7 @@
                 "polyfill",
                 "shim"
             ],
-            "time": "2017-06-09T08:25:21+00:00"
+            "time": "2017-07-05T15:09:33+00:00"
         },
         {
             "name": "symfony/process",
@@ -3358,17 +3307,70 @@
             "time": "2016-09-01T10:05:43+00:00"
         },
         {
-            "name": "webmagic/dashboard",
-            "version": "dev-laravel_5.4",
+            "name": "webmagic/core",
+            "version": "v0.5.0",
             "source": {
-                "type": "git",
-                "url": "https://bitbucket.org/webmagic/dashboard.git",
-                "reference": "cb41554ca092678cbe418f16b810ff4db29074a7"
+                "type": "hg",
+                "url": "https://bitbucket.org/webmagic/core",
+                "reference": "5e8686e19d2c9ad33172b28be977e6ee7089fa61"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://bitbucket.org/webmagic/dashboard/get/cb41554ca092678cbe418f16b810ff4db29074a7.zip",
-                "reference": "cb41554ca092678cbe418f16b810ff4db29074a7",
+                "url": "https://bitbucket.org/webmagic/core/get/5e8686e19d2c9ad33172b28be977e6ee7089fa61.zip",
+                "reference": "5e8686e19d2c9ad33172b28be977e6ee7089fa61",
+                "shasum": ""
+            },
+            "archive": {
+                "exclude": [
+                    "/tests",
+                    "test.bat",
+                    "phpunit.xml"
+                ]
+            },
+            "require": {
+                "laracasts/presenter": "^0.2.1",
+                "laravel/framework": "5.4.*",
+                "php": "7.1.*"
+            },
+            "require-dev": {
+                "laravel/laravel": "5.4.*",
+                "phpunit/phpunit": "~5.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Webmagic\\Core\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Tests\\": "tests/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Yevhen Saienko",
+                    "email": "lead-worker@yandex.ru"
+                }
+            ],
+            "description": "Package with core laravel-components",
+            "support": {
+                "source": "https://bitbucket.org/webmagic/core/src/5e8686e19d2c9ad33172b28be977e6ee7089fa61/?at=v0.5.0"
+            },
+            "time": "2017-08-14T19:49:15+00:00"
+        },
+        {
+            "name": "webmagic/dashboard",
+            "version": "dev-laravel_5.4",
+            "source": {
+                "type": "hg",
+                "url": "https://bitbucket.org/webmagic/dashboard",
+                "reference": "58c76705b1b0fb82f96a402596f1eb2119d061e0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://bitbucket.org/webmagic/dashboard/get/58c76705b1b0fb82f96a402596f1eb2119d061e0.zip",
+                "reference": "58c76705b1b0fb82f96a402596f1eb2119d061e0",
                 "shasum": ""
             },
             "require": {
@@ -3377,7 +3379,8 @@
                 "laravelcollective/html": "5.4.*",
                 "laravelrus/sleepingowl": "4.*@dev",
                 "maatwebsite/excel": "^2.1",
-                "roumen/asset": "2.5.5"
+                "roumen/asset": "2.5.5",
+                "webmagic/users": "dev-laravel_5.4"
             },
             "type": "library",
             "autoload": {
@@ -3392,25 +3395,23 @@
                 }
             ],
             "description": "Package for base dashboard preparing",
-            "homepage": "https://bitbucket.org/webmagic/dashboard",
             "support": {
-                "source": "https://bitbucket.org/webmagic/dashboard/src/cb41554ca092678cbe418f16b810ff4db29074a7/?at=laravel_5.4",
-                "issues": "https://bitbucket.org/webmagic/dashboard/issues"
+                "source": "https://bitbucket.org/webmagic/dashboard/src/58c76705b1b0fb82f96a402596f1eb2119d061e0/?at=laravel_5.4"
             },
-            "time": "2017-08-09T08:38:42+00:00"
+            "time": "2017-08-15T14:08:02+00:00"
         },
         {
             "name": "webmagic/ecommerce-light",
             "version": "dev-dev",
             "source": {
-                "type": "git",
-                "url": "https://bitbucket.org/webmagic/ecommerce-light.git",
-                "reference": "1352df9c9ef2a876e631fc2442d868f1366be7e2"
+                "type": "hg",
+                "url": "https://bitbucket.org/webmagic/ecommerce-light",
+                "reference": "97bb6a3e5ed70786a2c7a9a0f54532fde3dbbd84"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://bitbucket.org/webmagic/ecommerce-light/get/1352df9c9ef2a876e631fc2442d868f1366be7e2.zip",
-                "reference": "1352df9c9ef2a876e631fc2442d868f1366be7e2",
+                "url": "https://bitbucket.org/webmagic/ecommerce-light/get/97bb6a3e5ed70786a2c7a9a0f54532fde3dbbd84.zip",
+                "reference": "97bb6a3e5ed70786a2c7a9a0f54532fde3dbbd84",
                 "shasum": ""
             },
             "archive": {
@@ -3426,12 +3427,14 @@
                 "ivanlemeshev/laravel5-cyrillic-slug": "1.0.0",
                 "kalnoy/nestedset": "v4.2.5",
                 "laracasts/presenter": "^0.2.1",
-                "laravel-components/core": "v0.4.x-dev",
                 "laravel/framework": "5.4.*",
                 "maatwebsite/excel": "^2.1",
                 "nicolaslopezj/searchable": "1.*",
                 "php": "7.1.*",
-                "rutorika/sortable": "^3.2"
+                "rutorika/sortable": "^3.2",
+                "webmagic/core": "v0.5.0",
+                "webmagic/dashboard": "dev-laravel_5.4",
+                "webmagic/users": "dev-laravel_5.4"
             },
             "require-dev": {
                 "laravel/laravel": "5.4.*",
@@ -3449,18 +3452,17 @@
                 }
             },
             "description": "Ecommerce package for laravel",
-            "homepage": "https://bitbucket.org/webmagic/ecommerce-light",
             "support": {
-                "source": "https://bitbucket.org/webmagic/ecommerce-light/src/1352df9c9ef2a876e631fc2442d868f1366be7e2/?at=dev"
+                "source": "https://bitbucket.org/webmagic/ecommerce-light/src/97bb6a3e5ed70786a2c7a9a0f54532fde3dbbd84/?at=dev"
             },
-            "time": "2017-08-10T15:37:52+00:00"
+            "time": "2017-08-16T14:29:45+00:00"
         },
         {
             "name": "webmagic/log",
             "version": "dev-laravel_5.4",
             "source": {
-                "type": "git",
-                "url": "https://bitbucket.org/webmagic/log.git",
+                "type": "hg",
+                "url": "https://bitbucket.org/webmagic/log",
                 "reference": "eff5bad60719ae41bd89da4da111ac2bf406bdf3"
             },
             "dist": {
@@ -3486,29 +3488,29 @@
                 }
             ],
             "description": "Log viewer for MagicDashboard",
-            "homepage": "https://bitbucket.org/webmagic/log",
             "support": {
                 "source": "https://bitbucket.org/webmagic/log/src/eff5bad60719ae41bd89da4da111ac2bf406bdf3/?at=laravel_5.4"
             },
-            "time": "2017-07-27T14:32:16+00:00"
+            "time": "2017-07-27T16:32:16+00:00"
         },
         {
             "name": "webmagic/mailer",
             "version": "dev-laravel_5.4",
             "source": {
-                "type": "git",
-                "url": "https://bitbucket.org/webmagic/mailer.git",
-                "reference": "9a7882cc13cb2298e4615e70e1bfd083ee7597b6"
+                "type": "hg",
+                "url": "https://bitbucket.org/webmagic/mailer",
+                "reference": "21ef7be5684c3d0bada80b057d0f71c4e8dad442"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://bitbucket.org/webmagic/mailer/get/9a7882cc13cb2298e4615e70e1bfd083ee7597b6.zip",
-                "reference": "9a7882cc13cb2298e4615e70e1bfd083ee7597b6",
+                "url": "https://bitbucket.org/webmagic/mailer/get/21ef7be5684c3d0bada80b057d0f71c4e8dad442.zip",
+                "reference": "21ef7be5684c3d0bada80b057d0f71c4e8dad442",
                 "shasum": ""
             },
             "require": {
                 "laravel/framework": "5.4.*",
-                "php": "7.1.*"
+                "php": "7.1.*",
+                "webmagic/core": "v0.5.0"
             },
             "type": "library",
             "autoload": {
@@ -3523,31 +3525,30 @@
                 }
             ],
             "description": "Email notifier with possible use many emails lists",
-            "homepage": "https://bitbucket.org/webmagic/mailer",
             "support": {
-                "source": "https://bitbucket.org/webmagic/mailer/src/9a7882cc13cb2298e4615e70e1bfd083ee7597b6/?at=laravel_5.4",
-                "issues": "https://bitbucket.org/webmagic/mailer/issues"
+                "source": "https://bitbucket.org/webmagic/mailer/src/21ef7be5684c3d0bada80b057d0f71c4e8dad442/?at=laravel_5.4"
             },
-            "time": "2017-07-31T11:09:39+00:00"
+            "time": "2017-08-16T14:18:14+00:00"
         },
         {
             "name": "webmagic/request",
             "version": "dev-laravel_5.4",
             "source": {
-                "type": "git",
-                "url": "https://bitbucket.org/webmagic/request.git",
-                "reference": "3fc966e5a4caa173a8ca451b8940c00c9ed8ee2a"
+                "type": "hg",
+                "url": "https://bitbucket.org/webmagic/request",
+                "reference": "a2eb2735d35a4c0751b2e00b6fb35997fc2ec2f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://bitbucket.org/webmagic/request/get/3fc966e5a4caa173a8ca451b8940c00c9ed8ee2a.zip",
-                "reference": "3fc966e5a4caa173a8ca451b8940c00c9ed8ee2a",
+                "url": "https://bitbucket.org/webmagic/request/get/a2eb2735d35a4c0751b2e00b6fb35997fc2ec2f1.zip",
+                "reference": "a2eb2735d35a4c0751b2e00b6fb35997fc2ec2f1",
                 "shasum": ""
             },
             "require": {
                 "laravel/framework": "5.4.*",
                 "maatwebsite/excel": "~2.1.0",
-                "php": "7.1.*"
+                "php": "7.1.*",
+                "webmagic/core": "v0.5.0"
             },
             "type": "library",
             "autoload": {
@@ -3562,19 +3563,17 @@
                 }
             ],
             "description": "Package for registering requests",
-            "homepage": "https://bitbucket.org/webmagic/request",
             "support": {
-                "source": "https://bitbucket.org/webmagic/request/src/3fc966e5a4caa173a8ca451b8940c00c9ed8ee2a/?at=laravel_5.4",
-                "issues": "https://bitbucket.org/webmagic/request/issues"
+                "source": "https://bitbucket.org/webmagic/request/src/a2eb2735d35a4c0751b2e00b6fb35997fc2ec2f1/?at=laravel_5.4"
             },
-            "time": "2017-08-04T13:15:16+00:00"
+            "time": "2017-08-16T14:25:32+00:00"
         },
         {
             "name": "webmagic/users",
             "version": "dev-laravel_5.4",
             "source": {
-                "type": "git",
-                "url": "https://bitbucket.org/webmagic/users.git",
+                "type": "hg",
+                "url": "https://bitbucket.org/webmagic/users",
                 "reference": "a553bb5f20bb6f28e32ff989838bc3388e0c286b"
             },
             "dist": {
@@ -3599,11 +3598,10 @@
                 }
             ],
             "description": "Simple users and roles managment package",
-            "homepage": "https://bitbucket.org/webmagic/users",
             "support": {
                 "source": "https://bitbucket.org/webmagic/users/src/a553bb5f20bb6f28e32ff989838bc3388e0c286b/?at=laravel_5.4"
             },
-            "time": "2017-08-04T13:43:09+00:00"
+            "time": "2017-08-04T15:43:09+00:00"
         }
     ],
     "packages-dev": [
@@ -3897,7 +3895,7 @@
             ],
             "authors": [
                 {
-                    "name": "Padraic Brady",
+                    "name": "Pádraic Brady",
                     "email": "padraic.brady@gmail.com",
                     "homepage": "http://blog.astrumfutura.com"
                 },
@@ -4540,16 +4538,16 @@
         },
         {
             "name": "phpunit/php-token-stream",
-            "version": "2.0.0",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-token-stream.git",
-                "reference": "ecb0b2cdaa0add708fe6f329ef65ae0c5225130b"
+                "reference": "9a02332089ac48e704c70f6cefed30c224e3c0b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/ecb0b2cdaa0add708fe6f329ef65ae0c5225130b",
-                "reference": "ecb0b2cdaa0add708fe6f329ef65ae0c5225130b",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/9a02332089ac48e704c70f6cefed30c224e3c0b0",
+                "reference": "9a02332089ac48e704c70f6cefed30c224e3c0b0",
                 "shasum": ""
             },
             "require": {
@@ -4585,7 +4583,7 @@
             "keywords": [
                 "tokenizer"
             ],
-            "time": "2017-08-03T14:17:41+00:00"
+            "time": "2017-08-20T05:47:52+00:00"
         },
         {
             "name": "phpunit/phpunit",
@@ -5352,8 +5350,8 @@
             "name": "webmagic/gulp-builder",
             "version": "dev-master",
             "source": {
-                "type": "git",
-                "url": "https://bitbucket.org/webmagic/developments.git",
+                "type": "hg",
+                "url": "https://bitbucket.org/webmagic/developments",
                 "reference": "e7ffcde53e89eba6e215bf79eeaf7e8c561eea09"
             },
             "dist": {
