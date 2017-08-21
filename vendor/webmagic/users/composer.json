@@ -1,0 +1,20 @@
+{
+    "name": "webmagic/users",
+    "description": "Simple users and roles managment package",
+    "version": "0.2.4",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Yevhen Saienko",
+            "email": "lead-worker@yandex.ru"
+        }
+    ],
+    "require" : {
+        "laravel/framework": "5.4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Webmagic\\Users\\": "src/"
+        }
+    }
+}

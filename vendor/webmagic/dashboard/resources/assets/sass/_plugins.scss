@@ -1,0 +1,54 @@
+//Plugin import
+@import 'plugins/bootstrap.min';
+@import 'plugins/jquery.datetimepicker';
+@import '../../../bower_components/adminlte/dist/css/AdminLTE.min.css';
+
+@import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css';
+
+
+
+@import '../../../bower_components/adminlte/dist/css/skins/_all-skins.min.css';
+@import '../../../bower_components/adminlte/plugins/datatables/dataTables.bootstrap.css';
+@import '../../../bower_components/adminlte/plugins/daterangepicker/daterangepicker.css';
+@import '../../../bower_components/adminlte/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css';
+//switchery
+@import '../../../bower_components/switchery/dist/switchery.min.css';
+//END switchery
+
+//ckEditor
+@import '../../../bower_components/adminlte/plugins/ckeditor/skins/moono/editor.css';
+@import '../../../bower_components/adminlte/plugins/ckeditor/contents.css';
+@import '../../../bower_components/adminlte/plugins/ckeditor/skins/moono/dialog.css';
+.cke_button_icon, .cke_button .cke_button_icon{ 
+    background-image: url("../img/icons.png") !important;
+}
+.cke{
+    visibility: visible !important;
+}
+// .cke_panel_listItem{
+//     background-color: cadetblue;
+//     color: red;
+// }
+
+// .cke_panel_list{
+//     background-color: orangered
+// }
+
+
+//END ckEditor
+@import 'plugins/trumbowyg.css';
+@import 'plugins/select2.css';
+@import 'plugins/bootstrap-colorpicker';
+
+@import 'minimal/all';
+@import 'minimal/red';
+@import 'minimal/minimal';
+
+
+
+
+ 
+
+
+
+

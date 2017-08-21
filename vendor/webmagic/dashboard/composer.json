@@ -1,0 +1,33 @@
+{
+    "name": "webmagic/dashboard",
+    "description": "Package for base dashboard preparing",
+    "version": "0.2.22",
+    "authors": [
+        {
+            "name": "Yevhen Saienko",
+            "email": "lead-worker@yandex.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require" : {
+        "webmagic/users": "dev-laravel_5.4",
+
+        "laravel/framework": "5.4.*",
+        "roumen/asset": "2.5.5",
+        "bican/roles": "2.1.*",
+        "laravelcollective/html": "5.4.*",
+        "maatwebsite/excel": "^2.1",
+        "laravelrus/sleepingowl": "4.*@dev"
+    },
+    "repositories":[
+        {
+            "type":"vcs",
+            "url":"https://bitbucket.org/webmagic/users"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Webmagic\\Dashboard\\": "src/"
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "name": "webmagic/log",
+    "description": "Log viewer for MagicDashboard",
+    "version": "0.2.0",
+    "authors": [
+        {
+            "name": "Yevhen Saienko",
+            "email": "lead-worker@yandex.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require" : {
+        "laravel/framework": "5.4.*",
+        "rap2hpoutre/laravel-log-viewer": "v0.7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Webmagic\\Log\\": "src/"
+        }
+    }
+}

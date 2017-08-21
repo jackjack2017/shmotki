@@ -3,8 +3,8 @@ Homestead.json
 .env
 .idea
 .vscode
-resources/assets/_gulp-builder/node_modules
-resources/assets/_gulp-builder/bower_components
+/resources/assets/_gulp-builder/node_modules
+/resources/assets/_gulp-builder/bower_components
 /packages
-resources/assets/_gulp-builder/.sass-cache
+/resources/assets/_gulp-builder/.sass-cache
 /storage/debugbar

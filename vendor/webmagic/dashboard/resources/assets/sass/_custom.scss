@@ -1,0 +1,73 @@
+/*Common*/
+
+.form-control {
+    resize: vertical;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice{
+    color: #000;
+}
+
+
+/*END Common*/
+
+
+/*Email lists*/
+
+
+/*Forms*/
+
+.with-collapse .box-body {
+    display: none;
+}
+
+
+/*END Forms*/
+
+
+/*END Email List*/
+
+
+/*Alerts*/
+
+.alert-section {
+    position: fixed;
+    right: 10px;
+    bottom: 0;
+    width: 300px;
+    z-index: 100;
+}
+
+.alert-section .alert {
+    display: none;
+    right: 10px; 
+    bottom: 0;
+}
+
+
+/*END Alerts*/
+
+
+/* Product */
+
+.products-btn {
+    margin-top: 6px;
+    margin-right: 10px;
+}
+
+
+/* END Products */
+
+
+/* Sortable */
+.js-sortable-handler{
+    cursor: move;
+}
+
+/* END Sortable */
+
+/* Slider blk */
+.slider-blk{
+	overflow-x:scroll;
+	background-color:#fff;
+}
+/* END slider blk */

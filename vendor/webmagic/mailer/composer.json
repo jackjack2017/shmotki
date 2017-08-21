@@ -1,0 +1,22 @@
+{
+    "name": "webmagic/mailer",
+    "description": "Email notifier with possible use many emails lists",
+    "version": "0.2.5",
+    "minimum-stability": "stable",
+    "require": {
+        "php" : "7.1.*",
+        "laravel/framework": "5.4.*",
+        "webmagic/core": "v0.5.0"
+    },
+    "authors": [
+        {
+            "name": "Yevhen Saienko",
+            "email": "lead-worker@yandex.ru"
+        }
+    ],
+    "autoload":{
+      "psr-4" :{
+          "Webmagic\\Mailer\\" : "src/"
+      }
+    }
+}

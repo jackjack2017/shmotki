@@ -1,0 +1,38 @@
+{
+    "name": "webmagic/core",
+    "description": "Package with core laravel-components",
+    "version": "v0.5.0",
+    "authors": [
+        {
+            "name": "Yevhen Saienko",
+            "email": "lead-worker@yandex.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "7.1.*",
+        "laravel/framework": "5.4.*",
+        "laracasts/presenter": "^0.2.1"
+    },
+    "require-dev": {
+        "laravel/laravel": "5.4.*",
+        "phpunit/phpunit": "~5.7"
+    },
+    "autoload":{
+        "psr-4":{
+            "Webmagic\\Core\\" : "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "archive": {
+        "exclude": [
+            "/tests",
+            "test.bat",
+            "phpunit.xml"
+        ]
+    }
+}
