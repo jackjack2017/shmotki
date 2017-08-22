@@ -26,15 +26,15 @@ a{
 html,
 body{
   	height: 100%;
- 	line-height: 1;
- 	/* font-family: $base-font;
+ 	line-height: 2;
+ 	font-family: $base-font;
  	font-size: 14px;
- 	color:$color-font-txt; */
+ 	color:$c-main; 
 }
 .container{
 	max-width: $width-container + ($padding-container * 2);
  	@include make-container(); /* align center, add default padding*/
- 	padding-left: 40px;
+ 	padding-left: 20px;
  	padding-right: 40px;
 }
 

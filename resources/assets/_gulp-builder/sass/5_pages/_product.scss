@@ -1,0 +1,28 @@
+.product{
+	outline: 1px solid grey;
+	&-container{
+		@extend .container;
+	}
+	&-row{
+		@include make-row();
+	}
+	&-img{
+		@include make-col-ready($grid-columns);
+		@include make-col(6);
+		display: flex;
+		&-l{
+			@include make-col-ready($grid-columns);
+			@include make-col(3);
+			width: 100%;
+		}
+		&-r{
+			@include make-col-ready($grid-columns);
+			@include make-col(9);
+			width: 100%;
+		}
+	}
+	&-info{
+		@include make-col-ready($grid-columns);
+		@include make-col(6);
+	}
+}

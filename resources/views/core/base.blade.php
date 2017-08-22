@@ -13,16 +13,23 @@
     <link rel="stylesheet" type="text/css" href="{{asset('css/custom.css')}}">
 </head>
 <body class="{{$body_class}}">
+<div class="wrapper">
+	<div class="cnt-wrap">
+		{{--Header--}}
+		@include('parts/_header')
+	
+		{{--Content--}}
+		@section('content')
+		@show
+	</div>
+	
+	{{--Footer--}}
+	@include('parts/_footer')
 
-{{--Header--}}
-@include('parts/_header')
+</div>
 
-{{--Content--}}
-@section('content')
-@show
 
-{{--Footer--}}
-@include('parts/_footer')
+
 
 {{--Forms--}}
 @include('parts/_forms')
