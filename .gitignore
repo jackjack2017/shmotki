@@ -8,3 +8,4 @@ Homestead.json
 /packages
 /resources/assets/_gulp-builder/.sass-cache
 /storage/debugbar
+/vendor

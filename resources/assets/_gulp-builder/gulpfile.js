@@ -49,7 +49,6 @@ var plugins = {
     'rename': require('gulp-rename'),
     'sourcemaps': require('gulp-sourcemaps'),
     'sass': require('gulp-ruby-sass'),
-    'prefixer': require('gulp-autoprefixer'),
     'cssmin': require('gulp-minify-css'),
     'imagemin': require('gulp-imagemin'),
     'pngquant': require('imagemin-pngquant'),
@@ -100,16 +99,6 @@ gulp.task('css:build', function() {
     gulp.src(path.src.css)
         .pipe(plugins.plumber());
     return plugins.sass(path.src.css)
-        .pipe(plugins.prefixer({
-            browsers: [
-                'last 2 versions',
-                '> 1%',
-                'IE 7',
-                'android 4',
-                'opera 12',
-                'safari 8'
-            ],
-        }))
         .pipe(plugins.rename('dist.' + css_main_file_name))
         .pipe(gulp.dest(path.build.css))
         .pipe(plugins.cssmin())
@@ -125,16 +114,6 @@ gulp.task('css:dev', function() {
             sourcemap: true,
         })
         .pipe(plugins.cssmin())
-        .pipe(plugins.prefixer({
-            browsers: [
-                'last 2 versions',
-                '> 1%',
-                'IE 7',
-                'android 4',
-                'opera 12',
-                'safari 8'
-            ],
-        }))
         .pipe(plugins.sourcemaps.write('map'))
         .pipe(gulp.dest(path.build.css))
 });
