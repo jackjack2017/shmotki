@@ -11,6 +11,7 @@
     <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
     <link rel="stylesheet" type="text/css" href="{{asset('css/style.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('css/custom.css')}}">
+    <link rel="stylesheet" href="{{asset('css/font-awesome.min.css')}}">
 </head>
 <body class="{{$body_class}}">
 <div class="wrapper">
