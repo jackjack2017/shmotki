@@ -17,9 +17,83 @@
 					<input type="text" placeholder="Найти товары" class="header-search-inp">
 					<a href="#" class="header-search-ic fa fa-search"></a>
 				</div>
-				<a href="#" class="header-like">Избранное<span class="header-;like-num">(0)</span></a>
-				<a href="#" class="header-busket">Корзина <span class="header-busket-num">(0)</span></a>
+				<a href="#" class="header-like"><span class="header-like-txt">Избранное</span><span class="header-like-num">(0)</span></a>
+				<a href="#" class="header-basket"><span class="header-basket-txt">Корзина</span> <span class="header-basket-num">(0)</span></a>
 			</div>
 		</div>
+		<nav class="header-b">
+			<ul class="header-menu">
+				<li class="header-menu-i">
+					<a href="#" class="header-menu-lnk">Женщины	
+					</a>
+					<div class="header-submenu">
+						<ul class="header-submenu-lst">
+							<li class="header-submenu-i"><a href="#" class="header-submenu-lnk-S">Новые поступления</a></li>
+							<li class="header-submenu-i"><a href="#" class="header-submenu-lnk-S">Акции</a></li>
+							<li class="header-submenu-i"><a href="#" class="header-submenu-lnk">Куртки и пальто</a></li>
+							<li class="header-submenu-i"><a href="#" class="header-submenu-lnk">Трикотаж</a></li>
+							<li class="header-submenu-i"><a href="#" class="header-submenu-lnk">Кардиганы и джемперы</a></li>
+							<li class="header-submenu-i"><a href="#" class="header-submenu-lnk">Рубашки и брюки</a></li>
+							<li class="header-submenu-i"><a href="#" class="header-submenu-lnk">Топы</a></li>
+							<li class="header-submenu-i"><a href="#" class="header-submenu-lnk">Базовые модели</a></li>
+							<li class="header-submenu-i"><a href="#" class="header-submenu-lnk">Платья</a></li>
+							<li class="header-submenu-i"><a href="#" class="header-submenu-lnk">Пиджаки и жилеты</a></li>
+							<li class="header-submenu-i"><a href="#" class="header-submenu-lnk">Брюки</a></li>
+							<li class="header-submenu-i"><a href="#" class="header-submenu-lnk">Джинсы</a></li>
+							<li class="header-submenu-i"><a href="#" class="header-submenu-lnk">Комбинезоны</a></li>
+						</ul>
+						<ul class="header-submenu-lst">
+							<li class="header-submenu-i"><a href="#" class="header-submenu-lnk">Юбки</a></li>
+							<li class="header-submenu-i"><a href="#" class="header-submenu-lnk">Обувь</a></li>
+							<li class="header-submenu-i"><a href="#" class="header-submenu-lnk">Аксессуары</a></li>
+							<li class="header-submenu-i"><a href="#" class="header-submenu-lnk">Белье</a></li>
+							<li class="header-submenu-i"><a href="#" class="header-submenu-lnk">Одежда для сна</a></li>
+							<li class="header-submenu-i"><a href="#" class="header-submenu-lnk">Носки и колготки</a></li>
+							<li class="header-submenu-i"><a href="#" class="header-submenu-lnk">Шорты</a></li>
+							<li class="header-submenu-i"><a href="#" class="header-submenu-lnk">Купальники</a></li>
+							<li class="header-submenu-i"><a href="#" class="header-submenu-lnk">Спортивная одежда</a></li>
+							<li class="header-submenu-i"><a href="#" class="header-submenu-lnk">Одежда для беременных</a></li>
+							<li class="header-submenu-i"><a href="#" class="header-submenu-lnk">Большие размеры</a></li>
+						</ul>
+					</div>
+				</li>
+				<li class="header-menu-i">
+					<a href="#" class="header-menu-lnk">Мужчины</a>
+					<div class="header-submenu">
+						<ul class="header-submenu-lst">
+							<li class="header-submenu-i"><a href="#" class="header-submenu-lnk-S">Новые поступления</a></li>
+							<li class="header-submenu-i"><a href="#" class="header-submenu-lnk-S">Акции</a></li>
+							<li class="header-submenu-i"><a href="#" class="header-submenu-lnk">Куртки и пальто</a></li>
+							<li class="header-submenu-i"><a href="#" class="header-submenu-lnk">Трикотаж</a></li>
+							<li class="header-submenu-i"><a href="#" class="header-submenu-lnk">Кардиганы и джемперы</a></li>
+							<li class="header-submenu-i"><a href="#" class="header-submenu-lnk">Рубашки и брюки</a></li>
+							<li class="header-submenu-i"><a href="#" class="header-submenu-lnk">Топы</a></li>
+							<li class="header-submenu-i"><a href="#" class="header-submenu-lnk">Базовые модели</a></li>
+							<li class="header-submenu-i"><a href="#" class="header-submenu-lnk">Платья</a></li>
+							<li class="header-submenu-i"><a href="#" class="header-submenu-lnk">Пиджаки и жилеты</a></li>
+							<li class="header-submenu-i"><a href="#" class="header-submenu-lnk">Брюки</a></li>
+							<li class="header-submenu-i"><a href="#" class="header-submenu-lnk">Джинсы</a></li>
+							<li class="header-submenu-i"><a href="#" class="header-submenu-lnk">Комбинезоны</a></li>
+						</ul>
+						<ul class="header-submenu-lst">
+							<li class="header-submenu-i"><a href="#" class="header-submenu-lnk">Юбки</a></li>
+							<li class="header-submenu-i"><a href="#" class="header-submenu-lnk">Обувь</a></li>
+							<li class="header-submenu-i"><a href="#" class="header-submenu-lnk">Аксессуары</a></li>
+							<li class="header-submenu-i"><a href="#" class="header-submenu-lnk">Белье</a></li>
+							<li class="header-submenu-i"><a href="#" class="header-submenu-lnk">Одежда для сна</a></li>
+							<li class="header-submenu-i"><a href="#" class="header-submenu-lnk">Носки и колготки</a></li>
+							<li class="header-submenu-i"><a href="#" class="header-submenu-lnk">Шорты</a></li>
+							<li class="header-submenu-i"><a href="#" class="header-submenu-lnk">Купальники</a></li>
+							<li class="header-submenu-i"><a href="#" class="header-submenu-lnk">Спортивная одежда</a></li>
+							<li class="header-submenu-i"><a href="#" class="header-submenu-lnk">Одежда для беременных</a></li>
+							<li class="header-submenu-i"><a href="#" class="header-submenu-lnk">Большие размеры</a></li>
+						</ul>
+					</div>
+				</li>
+				<li class="header-menu-i"><a href="#" class="header-menu-lnk">Дети</a></li>
+				<li class="header-menu-i"><a href="#" class="header-menu-lnk">Sale</a></li>
+				<li class="header-menu-i"><a href="#" class="header-menu-lnk">Блог</a></li>
+			</ul>
+		</nav>
 	</div>
 </div>
