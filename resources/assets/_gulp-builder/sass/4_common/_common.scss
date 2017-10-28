@@ -36,6 +36,24 @@ body{
  	@include make-container(); /* align center, add default padding*/
  	padding-left: 40px;
  	padding-right: 40px;
+ 	&-category{
+ 		@include make-row();
+ 		margin: 0;
+ 	}
+}
+
+.page-sidebar{
+	@include make-col-ready($grid-columns);
+	@include make-col(3);
+	width: 100%;
+	padding: 0;
+}
+
+.page-cnt{
+	@include make-col-ready($grid-columns);
+	@include make-col(9);
+	width: 100%;
+	padding: 0;
 }
 
 

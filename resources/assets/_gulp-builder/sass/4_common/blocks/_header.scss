@@ -99,7 +99,7 @@
 			position: relative;
 			&:hover{
 				.header-submenu{
-					display: flex;
+					display: block; 
 				}
 				.header-menu-lnk:after{
 					display: block;
@@ -136,21 +136,14 @@
 		z-index: 1;
 		background-color: #fff;
 		&-lst{
+			columns: 2;
 			padding: 0 30px;
 		}
-		&-lnk{
-			font-size: 12px;
-			line-height: 1.3;
-			color: grey;
+		span{
+			text-transform: uppercase;
+			color: red;
 			&:hover{
 				color: black;
-				text-decoration: underline;
-				transition: color .3s;
-			}
-			&-S{
-				@extend .header-submenu-lnk;
-				text-transform: uppercase;
-				color: red;
 			}
 		}
 	}

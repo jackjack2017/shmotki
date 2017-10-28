@@ -1,0 +1,35 @@
+.arrow-left{
+	position: absolute;
+	top: 25%;
+	left: 0;
+	padding: 0 7px;
+	&:after{
+	    content: "";
+	    display: block;
+	    position: absolute;
+	    top: 12px;
+	    right: 8px;
+	    cursor: pointer;
+	    width: 14px;
+	    height: 14px;
+	    border-bottom: 3px solid rgba(0,0,0,.2);
+	    border-right: 3px solid rgba(0,0,0,.2);
+	    transform: rotate(135deg);
+	}
+	&:hover{
+		&:after{
+			border-bottom: 3px solid black;
+			border-right: 3px solid black;
+			transition: .3s;
+		}
+	}
+}
+.arrow-right{
+	@extend .arrow-left;
+	left: auto;
+	right: 5px;
+	&:after{
+		transform: rotate(-45deg);
+		right: 14px;
+	}
+}
