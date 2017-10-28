@@ -3,18 +3,13 @@
 //Use for include css config files
  
 @import 'functions';
-//@include add-font('../fonts/bmwb','BMWTypeV2Bold');
+@include add-font('../fonts/OpenSansBold',normal,bold);
+@include add-font('../fonts/OpenSansBoldItalic',italic,bold);
+@include add-font('../fonts/OpenSansItalic',italic,normal);
+@include add-font('../fonts/OpenSansRegular',normal,normal);
 
 
-//AUDI-PACK
 
-//Fonts for audi
-/* @include add-font('../fonts/AudiType-Normal', 'Audi');
-@include add-font('../fonts/AudiType-Bold', 'Audi', normal, bold);
-@include add-font('../fonts/AudiType-ExtendedNormal', 'AudiExtended');
-@include add-font('../fonts/AudiType-ExtendedBold', 'AudiExtended', normal, bold); */
-
-
-//variable fonts for audi
-/* $base-font: 'Audi', Verdana, Geneva, sans-serif;
-$ext-font: 'AudiExtended', Verdana, Geneva, sans-serif; */
+//variable fonts
+$base-font: 'OpenSansRegular', Arial, Geneva, sans-serif;
+$text-font: 'OpenSansBold', Arial, Geneva, sans-serif;

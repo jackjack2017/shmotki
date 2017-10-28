@@ -1,0 +1,33 @@
+.btn{
+	display: block;
+	line-height: 30px;
+	font-size: 11px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: black;
+	text-align: center;
+	background-color: #fff;
+	border: 1px solid transparent;
+	width: 100%;
+	&:hover{
+		transition: .1s;
+		background-color: black;
+		border: 1px solid #fff;
+		color: #fff;
+	}
+	&-inverse{
+		@extend .btn;
+		background-color: black;
+		border: 1px solid transparent;
+		color: #fff;
+		&:hover{
+		background-color: #fff;
+		border: 1px solid black;
+		color: black;
+		}
+	}
+}
+
+button{
+	outline: none;
+}

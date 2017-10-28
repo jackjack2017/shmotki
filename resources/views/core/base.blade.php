@@ -8,21 +8,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
-    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
     <link rel="stylesheet" type="text/css" href="{{asset('css/style.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('css/custom.css')}}">
+    <link rel="stylesheet" href="{{asset('css/font-awesome.min.css')}}">
 </head>
 <body class="{{$body_class}}">
+<div class="wrapper">
+	<div class="cnt-wrap">
+		{{--Header--}}
+		@include('parts/_header')
+	
+		{{--Content--}}
+		@section('content')
+		@show
+	</div>
+	
+	{{--Footer--}}
+	@include('parts/_footer')
 
-{{--Header--}}
-@include('parts/_header')
+</div>
 
-{{--Content--}}
-@section('content')
-@show
 
-{{--Footer--}}
-@include('parts/_footer')
+
 
 {{--Forms--}}
 @include('parts/_forms')
