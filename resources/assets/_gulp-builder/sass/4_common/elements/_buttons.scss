@@ -26,6 +26,13 @@
 		color: black;
 		}
 	}
+	&-show{
+		@extend .ttl-L;
+		color: grey;
+		&:hover{
+			color: black;
+		}
+	}
 }
 
 button{

@@ -26,3 +26,7 @@ Route::get('/category', function () {
 Route::get('/product', function () {
     return view('product');
 });
+
+Route::get('/subcategory', function () {
+    return view('subcategory');
+});

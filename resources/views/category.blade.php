@@ -1,7 +1,7 @@
 @extends('core/base')
 @section('content')
 
-@include('parts/_pagination')
+@include('parts/_breadcrumbs')
 
 <section class="category">
 	<div class="category-container-main">
