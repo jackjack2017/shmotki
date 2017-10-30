@@ -1,0 +1,19 @@
+.pagination{
+	@extend .breadcrumbs;
+	padding: 20px 0;
+	&:after{
+		@extend .breadcrumbs:after;
+	}
+	&-lst{
+		@extend .breadcrumbs-lst;
+	}
+	&-i{
+		@extend .breadcrumbs-i;
+	}
+	&-lnk{
+		@extend .breadcrumbs-lnk;
+	}
+	&-current{
+		@extend .breadcrumbs-current;
+	}
+}
