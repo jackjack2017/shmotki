@@ -1,4 +1,5 @@
 import { Slider } from '../libs/slider';
+import {ui} from './ui';
 // import {Sendform} from '../libs/sendform/sendform2';
 // import { MfPopup } from '../libs/popup/mfpopup';
 // import { AjaxPopup } from '../libs/popup/ajaxPopup';
@@ -19,11 +20,23 @@ class App{
     // Define global visible variable inside app 
     constructor(){}
     init(){
+        //used in Product slider block (Product page)
+        ui.galleryPopupInit('.js_gallery-product');
+
     	new Slider('.js_slider-main', {
             nav: true,
             dots: true,
             items: 4,
             margin: 10
+        });
+
+        new Slider('.js_slider-product', {
+            nav: false,
+            dots: true,
+            items: 1,
+            touchDrag: false,
+            mouseDrag: false,
+            dotsContainer: '.js_product-slider-dots-container'
         });
 
           // new GoogleMap({
