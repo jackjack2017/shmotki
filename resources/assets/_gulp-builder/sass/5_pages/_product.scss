@@ -12,26 +12,28 @@
 		@include make-col(6);
 		padding: 0;
 		padding-right: 20px;
+		.owl-dots {
+			display: flex;
+			padding-top: 25px;
+			.owl-dot{
+				border: 2px solid grey;
+				width: 100px;
+				height: 100px;
+				margin-right: 10px;
+				img{
+					max-height: 100%;
+					margin: auto;
+				}
+			}
+		}
 	}
 	&-slider{
 		&-i{
 			display: block;
 		}
+
 	}
-	.owl-dots {
-		display: flex;
-		padding-top: 25px;
-		.owl-dot{
-			border: 2px solid grey;
-			width: 100px;
-			height: 100px;
-			margin-right: 10px;
-			img{
-				max-height: 100%;
-				margin: auto;
-			}
-		}
-	}
+
 	&-info{
 		@include make-col-ready($grid-columns);
 		@include make-col(6);
