@@ -19,14 +19,14 @@ Route::get('/model', function () {
     return view('model');
 });
 
-Route::get('/category', function () {
-    return view('category');
+Route::get('/page', function () {
+    return view('page');
 });
 
 Route::get('/product', function () {
     return view('product');
 });
 
-Route::get('/subcategory', function () {
-    return view('subcategory');
+Route::get('/category', function () {
+    return view('category');
 });
