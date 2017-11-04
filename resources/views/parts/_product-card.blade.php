@@ -4,6 +4,9 @@
 		<button class="product-card-t-ic fa fa-heart-o fa-2x"  aria-hidden="true"></button >
 	</div>
 	<div class="product-card-b">
+		<div class="product-card-btn-inverse-wrap">
+			 <button class="product-card-btn-inverse">Добавить в корзину</button>
+		</div>
 		<p class="product-card-b-txt">Жилет из искусственного меха</p>
 		<p class="product-card-b-txt">999 грн</p>
 	</div>
