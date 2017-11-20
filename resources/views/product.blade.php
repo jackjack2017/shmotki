@@ -43,30 +43,30 @@
                     </div>
 	    		</div>
 	    		<div class="product-info">
-	    			<p class="product-name">Плaтье с рисунком</p>
+	    			<p class="product-name js_product" data-id="555">Плaтье с рисунком</p>
                     <p class="product-price">2 999 грн</p>
                     <p class="product-article">Артикул: 23456789</p>
                     <p class="product-c">Цвет:</p>
                     <div class="product-c-wrap">
                         <div class="product-c-i">
-                            <input type="radio" name="color" id="color" class="product-c-inp" checked>
+                            <input type="radio" name="color" id="color" data-color="1" class="product-c-inp" checked>
                             <label for="color" class="product-c-inp-lbl"></label>
                         </div>
                         <div class="product-c-i">
-                            <input type="radio" name="color" id="color2" class="product-c-inp">
+                            <input type="radio" name="color" id="color2" data-color="2" class="product-c-inp">
                             <label for="color2" class="product-c-inp-lbl" style="background-color: #c78dd4"></label>
                         </div>
                         <div class="product-c-i">
-                            <input type="radio" name="color" id="color3" class="product-c-inp">
-                            <label for="color3" class="product-c-inp-lbl" style="background-color: #cdad88"></label>
+                            <input type="radio" name="color" id="color3"  data-color="3" class="product-c-inp">
+                            <label for="color3" class="product-c-inp-lbl"  style="background-color: #cdad88"></label>
                         </div>
                         <div class="product-c-i">
-                            <input type="radio" name="color" id="color4" class="product-c-inp">
-                            <label for="color4" class="product-c-inp-lbl" style="background-color: #c76767"></label>
+                            <input type="radio" name="color" id="color4" data-color="4" class="product-c-inp">
+                            <label for="color4" class="product-c-inp-lbl"   style="background-color: #c76767"></label>
                         </div>
                         <div class="product-c-i">
-                            <input type="radio" name="color" id="color5" class="product-c-inp">
-                            <label for="color5" class="product-c-inp-lbl" style="background-color: #a5d79b"></label>
+                            <input type="radio" name="color" id="color5" data-color="5" class="product-c-inp">
+                            <label for="color5" class="product-c-inp-lbl"   style="background-color: #a5d79b"></label>
                         </div>
                     </div>
                     <p class="product-s">Размер:</p>

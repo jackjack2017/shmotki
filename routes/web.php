@@ -30,3 +30,7 @@ Route::get('/product', function () {
 Route::get('/category', function () {
     return view('category');
 });
+
+Route::post('/product/test', function () {
+    return view('test');
+});

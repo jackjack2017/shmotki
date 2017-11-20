@@ -41,6 +41,6 @@
 @if(!app()->environment('local'))
     @include('parts/_counters')
 @endif
-<div style="display: none;">{{csrf_token()}}</div>
+<div style="display: none;" id="_token-csrf">{{csrf_token()}}</div>
 </body>
 </html>
