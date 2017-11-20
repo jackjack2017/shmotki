@@ -1432,6 +1432,8 @@
 	
 	var _ui = __webpack_require__(107);
 	
+	var _getToken = __webpack_require__(108);
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	// import {Sendform} from '../libs/sendform/sendform2';
@@ -1495,6 +1497,29 @@
 	            //        }
 	            //    ]
 	            // });
+	
+	            $('.product-c-inp').on('change', this, function () {
+	
+	                var token = (0, _getToken.getToken)();
+	                console.log(token);
+	
+	                var colorId = $(this).data('color');
+	
+	                var a = 2;
+	
+	                $.ajax({
+	                    url: '/product/test',
+	                    type: 'POST',
+	                    data: colorId,
+	                    _token: token,
+	                    success: function success() {
+	                        alert('ok');
+	                    },
+	                    error: function error() {
+	                        alert('error');
+	                    }
+	                });
+	            });
 	        }
 	    }]);
 	    return App;
@@ -2707,6 +2732,20 @@
 	        });
 	    }
 	};
+
+/***/ }),
+/* 108 */
+/***/ (function(module, exports) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	exports.getToken = getToken;
+	function getToken() {
+	    return $('#_token-csrf').html();
+	}
 
 /***/ })
 /******/ ]);

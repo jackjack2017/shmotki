@@ -1,5 +1,6 @@
 import { Slider } from '../libs/slider';
 import {ui} from './ui';
+import {getToken} from "../libs/getToken";
 // import {Sendform} from '../libs/sendform/sendform2';
 // import { MfPopup } from '../libs/popup/mfpopup';
 // import { AjaxPopup } from '../libs/popup/ajaxPopup';
@@ -22,7 +23,7 @@ class App{
     init(){
         //used in Product slider block (Product page)
         ui.galleryPopupInit('.js_gallery-product');
-
+   
     	new Slider('.js_slider-main', {
             nav: true,
             dots: true,
@@ -57,6 +58,35 @@ class App{
           //        }
           //    ]
           // });
-              
+
+           $('.product-c-inp').on('change', this, function() {
+
+              let token = getToken();
+              console.log(token);
+             
+              let colorId = $(this).data('color');
+
+              let a = 2;
+
+                  $.ajax({
+                     url: '/product/test',
+                     type: 'POST',
+                     data: colorId,
+                     _token: token,
+                     success: success();
+                     }, 
+                     error: error();
+                     }
+                  })
+
+                  function success(data) {
+                    let info = JSON.parse(data);
+                  }
+
+                  function error(){
+                    alert('error');
+                  }
+            })
+          
     }
-};
+}; 
