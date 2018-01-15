@@ -145,6 +145,10 @@
 		}
 		&-b{
 			padding: 10px;
+			display: none;
+			&.__show-cnt{
+				display: block;
+			}
 		}
 		&-lnk{
 			line-height: 40px;
