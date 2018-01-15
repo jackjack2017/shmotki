@@ -99,15 +99,27 @@
                      <div class="product-btn-wrap">
                         <a href="#" class="product-btn">В избранное</a>
                     </div>
-                    <div class="product-description">
+                    <div class="product-description js_ui-tabs">
                         <div class="product-description-t">
-                            <a href="#" class="product-description-lnk __active">Описание</a>
-                            <a href="#" class="product-description-lnk">Подробнее</a>
-                            <a href="#" class="product-description-lnk">Доставка</a>
-                            <a href="#" class="product-description-lnk">Отзывы</a>
+                            <a href="#" class="product-description-lnk js_ui-tab-nav __active">Описание</a>
+                            <a href="#" class="product-description-lnk js_ui-tab-nav">Подробнее</a>
+                            <a href="#" class="product-description-lnk js_ui-tab-nav">Доставка</a>
+                            <a href="#" class="product-description-lnk js_ui-tab-nav">Отзывы</a>
                         </div>
-                        <div class="product-description-b default-cnt">
+                        <div class="product-description-b default-cnt js_ui-tabs-cnt __show-cnt">
                             <p>Платье из плотного трикотажа с рельефным рисунком. На платье длинные рукава и отрезная талия. Боковые карманы.</p>
+                        </div>
+                        <div class="product-description-b default-cnt js_ui-tabs-cnt">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, delectus.
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aut delectus eligendi eveniet id iste, obcaecati quaerat sit ut voluptate?</p>
+                        </div>
+                        <div class="product-description-b default-cnt js_ui-tabs-cnt">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, nulla?
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda doloremque ea libero repudiandae similique unde veritatis? Consectetur ex natus quos!</p>
+                        </div>
+                        <div class="product-description-b default-cnt js_ui-tabs-cnt">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, quia.
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda atque cum harum laboriosam libero nostrum nulla provident, totam ullam velit?</p>
                         </div>
                     </div>
                     <div class="product-advantages">

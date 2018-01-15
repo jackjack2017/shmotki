@@ -23,6 +23,7 @@ class App{
     init(){
         //used in Product slider block (Product page)
         ui.galleryPopupInit('.js_gallery-product');
+        ui.tabsInit('.js_ui-tab-nav', '.js_ui-tabs-cnt', '.js_ui-tabs');
    
     	new Slider('.js_slider-main', {
             nav: true,
@@ -65,22 +66,20 @@ class App{
               console.log(token);
              
               let colorId = $(this).data('color');
-
-              let a = 2;
+              console.log(colorId);
 
                   $.ajax({
                      url: '/product/test',
                      type: 'POST',
                      data: colorId,
                      _token: token,
-                     success: success();
-                     }, 
-                     error: error();
-                     }
-                  })
+                     success: success(),
+                     error: error()
+                  });
 
                   function success(data) {
-                    let info = JSON.parse(data);
+                    // let info = JSON.parse(data);
+                      console.log('success');
                   }
 
                   function error(){

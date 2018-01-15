@@ -13,3 +13,14 @@
 //variable fonts
 $base-font: 'OpenSansRegular', Arial, Geneva, sans-serif;
 $text-font: 'OpenSansBold', Arial, Geneva, sans-serif;
+
+.price-txt-blk-wrap{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.price-txt-blk.__l{
+  padding-right: 20px;
+}
+
