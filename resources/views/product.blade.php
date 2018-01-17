@@ -5,7 +5,7 @@
 
 <div class="product">
     	<div class="product-container">
-    		<div class="product-row">
+    		<div class="product-row js-product" data-id="21">
     			<div class="product-img">
                     <div class="product-slider owl-carousel owl-theme js_slider-product js_gallery-product">
                         <a href="{{asset('img/product-img1.jpg')}}" class="product-slider-i">
@@ -43,7 +43,7 @@
                     </div>
 	    		</div>
 	    		<div class="product-info">
-	    			<p class="product-name js_product" data-id="555">Плaтье с рисунком</p>
+	    			<p class="product-name">Плaтье с рисунком</p>
                     <p class="product-price">2 999 грн</p>
                     <p class="product-article">Артикул: 23456789</p>
                     <p class="product-c">Цвет:</p>
@@ -110,8 +110,15 @@
                             <p>Платье из плотного трикотажа с рельефным рисунком. На платье длинные рукава и отрезная талия. Боковые карманы.</p>
                         </div>
                         <div class="product-description-b default-cnt js_ui-tabs-cnt">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, delectus.
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aut delectus eligendi eveniet id iste, obcaecati quaerat sit ut voluptate?</p>
+                            <ul>
+                                <li>Бренд: <span></span></li>
+                                <li>Размеры: <span></span></li>
+                                <li>Сезонность: <span></span></li>
+                                <li>Ткань: <span></span></li>
+                                <li>Длина изделия: <span></span></li>
+                                <li>Длина рукава: <span></span></li>
+                                <li>Cтиль: <span></span></li>
+                            </ul>
                         </div>
                         <div class="product-description-b default-cnt js_ui-tabs-cnt">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, nulla?
@@ -125,20 +132,20 @@
                     <div class="product-advantages">
                         <div class="product-advantages-row">
                             <div class="product-advantages-col">
-                                <span class="product-advantages-ic fa fa-facebook-square fa-2x"></span>
-                                <p class="product-advantages-txt"> Оплата: Заказ оплачивается наличными или кредитной/дебетовой картой при получении.</p>
-                            </div>
-                             <div class="product-advantages-col">
-                                <span class="product-advantages-ic fa fa-shopping-cart fa-2x"></span>
-                                <p class="product-advantages-txt"> Оплата: Заказ оплачивается наличными или кредитной/дебетовой картой при получении.</p>
-                            </div>
-                             <div class="product-advantages-col">
-                                <span class="product-advantages-ic fa fa-snowflake-o fa-2x"></span>
-                                <p class="product-advantages-txt"> Оплата: Заказ оплачивается наличными или кредитной/дебетовой картой при получении.</p>
-                            </div>
-                             <div class="product-advantages-col">
                                 <span class="product-advantages-ic fa fa-balance-scale fa-2x"></span>
-                                <p class="product-advantages-txt"> Оплата: Заказ оплачивается наличными или кредитной/дебетовой картой при получении.</p>
+                                <p class="product-advantages-txt"> Лучшее соотношение цена-качество</p>
+                            </div>
+                             <div class="product-advantages-col">
+                                <span class="product-advantages-ic fa fa-truck fa-2x"></span>
+                                <p class="product-advantages-txt"> Выгодная доставка</p>
+                            </div>
+                             <div class="product-advantages-col">
+                                <span class="product-advantages-ic fa fa-credit-card-alt fa-2x"></span>
+                                <p class="product-advantages-txt"> Любая форма оплаты</p>
+                            </div>
+                             <div class="product-advantages-col">
+                                <span class="product-advantages-ic fa fa-percent fa-2x"></span>
+                                <p class="product-advantages-txt"> Скидки постоянным клиентам</p>
                             </div>
                         </div>
                     </div>

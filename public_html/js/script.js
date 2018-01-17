@@ -1428,18 +1428,19 @@
 	            $('.product-c-inp').on('change', this, function () {
 	
 	                var token = (0, _getToken.getToken)();
-	                console.log(token);
-	
 	                var colorId = $(this).data('color');
-	                console.log(colorId);
+	                var productId = $(this).closest('.product-row').data('id');
 	
 	                $.ajax({
 	                    url: '/product/test',
 	                    type: 'POST',
-	                    data: colorId,
-	                    _token: token,
-	                    success: success(),
-	                    error: error()
+	                    data: {
+	                        colorID: colorId,
+	                        productId: productId,
+	                        _token: token
+	                    },
+	                    success: success()
+	                    // error: error()
 	                });
 	
 	                function success(data) {
@@ -1447,9 +1448,9 @@
 	                    console.log('success');
 	                }
 	
-	                function error() {
-	                    alert('error');
-	                }
+	                // function error(){
+	                //   alert('error');
+	                // }
 	            });
 	        }
 	    }]);
